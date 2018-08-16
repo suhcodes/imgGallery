@@ -1,6 +1,6 @@
-body {
+/* body {
   visibility: hidden;
-}
+} */
 @-webkit-keyframes focus-in-expand {
   0% {
     letter-spacing: -0.5em;
@@ -99,6 +99,7 @@ body {
 .box9 > img{
 	height: 15em;
 	object-fit: cover;
+	object-position: 50% 35%
 }
 
 .box1{
