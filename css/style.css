@@ -1,3 +1,6 @@
+* {
+  visibility: hidden;
+}
 @-webkit-keyframes focus-in-expand {
   0% {
     letter-spacing: -0.5em;
@@ -24,7 +27,6 @@
     opacity: 1;
   }
 }
-
 .focus-in-expand {
 	-webkit-animation: focus-in-expand 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
 	        animation: focus-in-expand 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
@@ -60,42 +62,42 @@
 }
 
 .box1 > img{
-	height: 46vh;
+	height: 31em;
 	object-fit: cover;
 }
 .box2 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
 }
 .box3 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
 }
 .box4 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
 }
 .box5 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
 	object-position: 50% 10%
 }
 .box6 > img{
-	height: 46vh;
+	height: 31em;
 	object-fit: cover;
 }
 .box7 > img{
-	height: 46vh;
+	height: 31em;
 	object-fit: cover;
 	object-position: 50% 20%
 }
 .box8 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
 	object-position: 50% 35%
 }
 .box9 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
 }
 
