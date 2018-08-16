@@ -58,46 +58,44 @@
 .box > img{
 	width: 100%;
 }
-
 .box1 > img{
-	height: 46vh;
+	height: 31em;
 	object-fit: cover;
 }
 .box2 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
 }
 .box3 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
 }
 .box4 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
 }
 .box5 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
 	object-position: 50% 10%
 }
 .box6 > img{
-	height: 46vh;
+	height: 31em;
 	object-fit: cover;
 }
 .box7 > img{
-	height: 46vh;
+	height: 31em;
 	object-fit: cover;
 	object-position: 50% 20%
 }
 .box8 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
 	object-position: 50% 35%
 }
 .box9 > img{
-	height: 22vh;
+	height: 15em;
 	object-fit: cover;
-}
 
 .box1{
 	grid-column: 1;
@@ -196,31 +194,31 @@
 		grid-row: 6;
 	}
 	.box1 > img{
-		height: 17vh;
+		height: 7em;
 	}
 	.box2 > img{
-		height: 17vh;
+		height: 7em;
 	}
 	.box3 > img{
-		height: 17vh;
+		height: 7em;
 	}
 	.box4 > img{
-		height: 17vh;
+		height: 7em;
 	}
 	.box5 > img{
-		height: 17vh;
+		height: 7em;
 	}
 	.box6 > img{
-		height: 17vh;
+		height: 7em;
 	}
 	.box7 > img{
-		height: 17vh;
+		height: 7em;
 	}
 	.box8 > img{
-		height: 17vh;
+		height: 7em;
 	}
 	.box9 > img{
-		height: 17vh;
+		height: 7em;
 		object-position: 50% 35%;
 	}
 	.footer-text{
