@@ -41,12 +41,32 @@
 		</div>
 		<div class="float-right">
 			<h1 class="head-title focus-in-expand d-none d-sm-none d-md-block">
-				<a href="#"><b>A</b>bout <b>M</b>e</a>
-			</h1>
+          		<a data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;"><b>A</b>bout <b>M</b>e</a>
+ 			</h1>
 			<div class="d-block d-sm-block d-md-none focus-in-expand icon">
-				<a srt="#"><i class="fas fa-plus"></i></a>
+				<a data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;"><i class="fas fa-plus"></i></a>
 			</div>
-			</div>
+			<div style="display: none;" id="animatedModal" class="animated-modal">
+				<img src="img/01.jpg" class="float-left">
+		        <h2><b>H</b>ello!</h2>
+		        <ul class="horizontal-list">
+		        	<li class="icons"><i class="fab fa-facebook-square"></i></li>
+  					<li class="icons"><i class="fab fa-tumblr-square"></i></li>
+					<li class="icons"><i class="fab fa-twitter-square"></i></li>
+					<li class="icons"><i class="fab fa-instagram"></i></li>
+					<li class="icons"><i class="fab fa-pinterest-square"></i></li>
+		        </ul>
+		        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		        consequat.</p>
+		        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+		        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	        	<button type="button" class="btn btn-outline-info float-right d-none d-sm-none d-md-block">More!</button>
+	        	<button type="button" class="btn btn-outline-info btn-sm float-right d-block d-sm-block d-md-none">More!</button>
+	        </div>
+		</div>
 	</div>
 	
 
@@ -133,18 +153,18 @@
 			easing: 'ease-in'
 		});
 		ScrollReveal().reveal('.box7', {
-			delay: 450,
+			delay: 1000,
 			duration: 1000,
 			easing: 'ease-in'
 		});
 		ScrollReveal().reveal('.box8', {
-			delay: 500,
-			duration: 1500,
+			delay: 900,
+			duration: 1000,
 			easing: 'ease-in'
 		});
 		ScrollReveal().reveal('.box9', {
-			delay: 400,
-			duration: 1500,
+			delay: 800,
+			duration: 1000,
 			easing: 'ease-in'
 		});
 		ScrollReveal().reveal('.footer', {
