@@ -25,8 +25,8 @@
   }
 }
 .focus-in-expand {
-	-webkit-animation: focus-in-expand 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
-	        animation: focus-in-expand 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+	-webkit-animation: focus-in-expand 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
+	        animation: focus-in-expand 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s both;
 }
 .head-title{
 	font-family: 'Lato', sans-serif;
