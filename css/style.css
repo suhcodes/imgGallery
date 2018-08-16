@@ -230,6 +230,11 @@
 		padding: 0em 1em 0em 1em;
 		text-align: justify;
 	}
+	.btn{
+		position: absolute;
+		bottom: 1em;
+		right: 1em;
+	}
 	.head-title{
 		padding-top: 0.5em;
 	}
