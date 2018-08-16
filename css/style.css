@@ -138,10 +138,11 @@
 .footer-text{
 	text-align: center;
 	font-family: 'Lato', sans-serif;
+	color: black;
 }
 .footer-text a{
 	text-decoration: none;
-	color: #83b7d3;
+	color: #4a92d6;
 }
 
 @media screen and (max-width: 800px){
@@ -219,7 +220,7 @@
 		object-position: 50% 35%;
 	}
 	.footer-text{
-		font-size: 10px;
+		font-size: 12px;
 		padding: 2em 1em 2em 1em;
 		background-color: #eee;
 	}
