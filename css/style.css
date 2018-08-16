@@ -135,7 +135,14 @@
 	grid-column: 2/4;
 	grid-row: 5;
 }
-
+.footer-text{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+.footer-text a{
+	text-decoration: none;
+	color: #83b7d3;
+}
 
 @media screen and (max-width: 800px){
 	.head-title{
@@ -211,12 +218,9 @@
 		height: 17vh;
 		object-position: 50% 35%;
 	}
-}
-.footer-text{
-	text-align: center;
-	font-family: 'Lato', sans-serif;
-}
-.footer-text a{
-	text-decoration: none;
-	color: #83b7d3;
+	.footer-text{
+		font-size: 10px;
+		padding: 1em;
+		background-color: #eee;
+	}
 }
