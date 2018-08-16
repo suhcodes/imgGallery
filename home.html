@@ -34,6 +34,19 @@
 			]
 			});
 	</script>
+	<!-- START LADINGIN PAGE -->
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+		  /* Show the HTML page only after the js and css are completely loaded */
+		  delayShow();
+		});
+		 
+		function delayShow() {
+		  var secs = 1000;
+		  setTimeout('jQuery("body").css("visibility","visible");', secs);
+		}
+	</script> 
+	<!-- END LANDING PAGE -->
 	<script src="https://unpkg.com/scrollreveal"></script>
 	<script type="text/javascript">
 		ScrollReveal().reveal('.box1', {
@@ -116,8 +129,6 @@
 			</div>
 			</div>
 	</div>
-	
-
 	<div class="wrapper container">
 		<div class="box box1">
 			<a data-fancybox="gallery" data-caption="Algo sobre a imagem." href="img/01.jpg" class="box box1"><img src="img/01.jpg"></a>
