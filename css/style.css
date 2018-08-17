@@ -281,6 +281,9 @@ h4{
 		left: -9999px;
 
 	}
+	h4{
+		padding: 2em;
+	}
 	.head-title{
 		padding-top: 0.5em;
 	}
@@ -290,24 +293,24 @@ h4{
 		grid-gap: 0.5em;
 	}
 	.img-modal > img{
-		width: 6em;
-    	height: 6em;
-        border-radius: 3em;
-        margin-top: 1em;
+		width: 7em;
+		height: 7em;
+		border-radius: 3.5em;
+		margin-top: 1em;
 	}
 	h4{
 		padding-left: 0.25em;
 		display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	    text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
 	}
 	.icons > img{
 		height: 4em;
 		width: auto;
 		display: block;
-	    margin-left: auto;
-	    margin-right: auto;
+	    	margin-left: auto;
+	    	margin-right: auto;
 	}
 	.box1{
 		grid-column: 1;
