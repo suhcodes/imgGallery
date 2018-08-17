@@ -1,9 +1,9 @@
 body{
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
+    -webkit-animation: fadein 4.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4.5s; /* Firefox < 16 */
+        -ms-animation: fadein 4.5s; /* Internet Explorer */
+         -o-animation: fadein 4.5s; /* Opera < 12.1 */
+            animation: fadein 4.5s;
 }
 
 @keyframes fadein {
@@ -67,45 +67,57 @@ body{
 	        animation: focus-in-expand 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
 }
 .animated-modal {
-	max-width: 800px;
-	max-height: 800px;
-	border-radius: 4px;
+	max-width: 50em;
+	max-height: 80em;
 	overflow: hidden;
 	transform: translateY(-50px);
 	transition: all .7s;
 }
-.animated-modal img {
-	border-radius: 100%;
-	height: 10em;
-	width: 10em;
-	padding: 1em;
-}
 .animated-modal p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
+	text-align: justify;
 }
 .animated-modal h2{
 	font-family: 'Lato', sans-serif;
 }
 .animated-modal h2,
 .animated-modal p {
-	padding-right: 1em;
-	padding-left: 1em;
 	transform: translateY(-50px);
 	opacity: 0;
 	transition-property: transform, opacity;
 	transition-duration: .4s;
 }
-.icons > i{
-	color: #FFC5BD;
+h4{
+	padding-left: 0.25em;
 }
-
-.icons > i:hover{
-	color: #a4d8f2;
+.ic-1{
+	position: relative;
+	bottom: 0.5em;
 }
-.horizontal-list li{
+.ic-2{
+	position: relative;
+	bottom: 0.5em;
+}
+.ic-3{
+	position: relative;
+	bottom: 0.5em;
+}
+.icons > img{
+	height: 4em;
+	width: auto;
+}
+.img-modal > img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 5em;
+}
+.horizontal-list > li{
 	list-style: none;
 	display: inline-grid;
-
 }
 /* Final state */
 .fancybox-slide--current .animated-modal,
@@ -132,6 +144,9 @@ body{
 .head-title > a{
 	text-decoration: none;
 	color: #333;
+}
+.follow{
+	font-family: 'Lato', sans-serif;
 }
 .icon{
 	padding-top: 1em;
@@ -246,34 +261,21 @@ body{
 	color: #a4d8f2;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
 	.animated-modal {
 		width: 100%;
 		min-height: 100%;
-		padding: 1em;
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-top: 1em;
 		border-radius: 0px;
 		position: absolute;
 		top: 0;
 		left: 0;
 	}
-	.animated-modal > img {
-		height: 5em;
-		width: 5em;
-		padding: 0.5em;
-	}
-	.animated-modal > h2 {
-		font-size: 16px;
-		padding-top: 0.5em;
-	}
-	.animated-modal p {
-		font-size: 14px;
-		padding: 0em 1em 0em 1em;
-		text-align: justify;
-	}
-	.btn{
-		position: absolute;
-		bottom: 1em;
-		right: 1em;
+	.animated-modal > p, h2{
+		padding-right: 1.5em;
+		padding-left: 1.5em;
 	}
 	.head-title{
 		padding-top: 0.5em;
@@ -282,6 +284,26 @@ body{
 		grid-template-columns: 1fr 1fr;
 		padding-top: 0.25em;
 		grid-gap: 0.5em;
+	}
+	.img-modal > img{
+		width: 6em;
+    	height: 6em;
+        border-radius: 3em;
+        margin-top: 1em;
+	}
+	h4{
+		padding-left: 0.25em;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    text-align: center;
+	}
+	.icons > img{
+		height: 4em;
+		width: auto;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
 	}
 	.box1{
 		grid-column: 1;
@@ -294,7 +316,6 @@ body{
 	.box3{
 		grid-column: 1/3;
 		grid-row: 2;
-		
 	}
 	.box4{
 		grid-column: 1;
