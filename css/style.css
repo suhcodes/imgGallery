@@ -77,9 +77,12 @@ body{
 .animated-modal p {
 	font-family: 'Lato', sans-serif;
 	text-align: justify;
+	paddin-right: 2em;
+	padding-left: 2em;
 }
 .animated-modal h2{
 	font-family: 'Lato', sans-serif;
+	padding-left: 2em;
 }
 .animated-modal h2,
 .animated-modal p {
