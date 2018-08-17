@@ -76,11 +76,12 @@ body{
 	background-color: #f8f8ff;
 }
 .animated-modal p {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: justify;
 	padding-right: 2em;
 	padding-left: 2em;
-	color: #070707;	
+	color: #070707;
+	font-size: 18px;
 }
 .animated-modal h2{
 	font-family: 'Lato', sans-serif;
