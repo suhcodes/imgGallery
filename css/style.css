@@ -265,7 +265,7 @@ h4{
 	color: #a4d8f2;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.animated-modal {
 		width: 100%;
 		min-height: 100%;
