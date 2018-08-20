@@ -147,7 +147,7 @@ body{
 }
 .head-title > a{
 	text-decoration: none;
-	color: #333;
+	color: #4c4c4;
 }
 .follow{
 	font-family: 'Lato', sans-serif;
@@ -156,7 +156,7 @@ body{
 	padding-top: 1em;
 }
 .icon > a{
-	color: #333;
+	color: #4c4c4c;
 }
 .wrapper{
 	display: grid;
