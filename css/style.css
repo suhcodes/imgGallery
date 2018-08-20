@@ -268,12 +268,12 @@ body{
 	color: #303030;
 	padding: 1em;
 	letter-spacing: 2px;
-	font-weight: 200;
+	font-weight: 300;
 }
 .footer-text a{
 	text-decoration: none;
 	color: #FFC5BD;
-	font-weight: 200;
+	font-weight: 300;
 }
 .footer-text a:hover{
 	color: #a4d8f2;
