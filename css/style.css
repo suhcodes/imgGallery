@@ -144,11 +144,14 @@ body{
 	letter-spacing: 2px;
 	font-size: 25px;
 	padding-top: 1em;
+	font-weight: 200;
 }
 .head-title > a{
 	text-decoration: none;
 	color: #666666;
 	letter-spacing: 2px;
+	font-weight: 200;
+	
 }
 .follow{
 	font-family: 'Lato', sans-serif;
@@ -267,6 +270,7 @@ body{
 	color: #666666;
 	padding: 1em;
 	letter-spacing: 2px;
+	font-weight: 200;
 }
 .footer-text a{
 	text-decoration: none;
@@ -405,7 +409,6 @@ body{
 		object-position: 50% 20%
 	}
 	.footer-text{
-		letter-spacing: 1px;
 		font-size: 15px;
 		padding: 2em 1em 2em 1em;
 	}
