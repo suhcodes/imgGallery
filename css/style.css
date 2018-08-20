@@ -142,15 +142,13 @@ body{
 .head-title{
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 2px;
-	font-size: 25px;
+	font-size: 28px;
 	padding-top: 1em;
-	font-weight: 200;
 }
 .head-title > a{
 	text-decoration: none;
 	color: #666666;
 	letter-spacing: 2px;
-	font-weight: 200;
 	
 }
 .follow{
