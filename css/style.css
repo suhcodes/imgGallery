@@ -266,7 +266,7 @@ body{
 	font-family: 'Lato', sans-serif;
 	color: #666666;
 	padding: 1em;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 }
 .footer-text a{
 	text-decoration: none;
@@ -405,6 +405,7 @@ body{
 		object-position: 50% 20%
 	}
 	.footer-text{
+		letter-spacing: 1px;
 		font-size: 15px;
 		padding: 2em 1em 2em 1em;
 	}
