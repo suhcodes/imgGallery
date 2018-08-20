@@ -157,6 +157,7 @@ body{
 }
 .icon > a{
 	color: #4c4c4c;
+	letter-spacing: 3px;
 }
 .wrapper{
 	display: grid;
