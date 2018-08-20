@@ -264,8 +264,9 @@ body{
 .footer-text{
 	text-align: center;
 	font-family: 'Lato', sans-serif;
-	color: black;
+	color: #666666;
 	padding: 1em;
+	letter-spacing: 1px;
 }
 .footer-text a{
 	text-decoration: none;
